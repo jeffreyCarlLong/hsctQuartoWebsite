@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Cell Transplant Therapy - Retrospective Cohort Study of Myeloablative Allogeneic Hematopoietic Stem Cell Transplant.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script><link rel="stylesheet" href="styles.css">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Cell Transplant Therapy</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+<div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Retrospective Cohort Study of Myeloablative Allogeneic Hematopoietic Stem Cell Transplant.</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header><p><strong>Study Abstract</strong></p>
+<p>This data set contains 64 consecutive patients who underwent T-cell replete, matched sibling donor reduced-intensity conditioning allogeneic hematopoietic stem cell transplant. A number of demographic, baseline and transplant characteristics were also collected. The dataset is cleaned and relatively complete. There are no outliers or data problems.</p>
+<p><strong>Indications</strong></p>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://higgi13425.github.io/medicaldata/">medicaldata</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output cell-output-stdout">
+<pre><code> [1] "acute myeloid leukemia"       "non-Hodgkin lymphoma"        
+ [3] "Hodgkin lymphoma"             "acute lymphoblastic leukemia"
+ [5] "myelofibrosis"                "multiple myelomas"           
+ [7] "chronic lymphocytic leukemia" "myelodysplastic syndrome"    
+ [9] "chronic myeloid leukemia"     "renal cell carcinoma"        
+[11] "aplastic anemia"              "congenital anemia"           
+[13] "myeloproliferative disorder" </code></pre>
+</div>
+</div>
+<p><strong>Primary Risk Factor</strong></p>
+<p>The number of activating killer immunoglobulin-like receptors (aKIRs: 1-4 vs.&nbsp;5-6)</p>
+<p><strong>Primary Outcome</strong></p>
+<p>The primary outcome is presence of and time to cytomegalovirus reactivation.</p>
+<p><strong>Background</strong></p>
+<p>Hematopoietic stem cell transplantation (HSCT) is the transplantation of multipotent hematopoietic stem cells, from bone marrow, peripheral blood, or umbilical cord blood. It is a medical procedure most often performed for patients with certain cancers of the blood or bone marrow, such as multiple myeloma or leukemia. Allogeneic HSCT involves two people: the (healthy) donor and the (patient) recipient. Allogeneic HSC donors must have a tissue (HLA) type that matches the recipient. In myeloablative allogeneic HSCT, chemotherapy or irradiation is given immediately prior to a transplant (the conditioning regimen) with the purpose of eradicating the patient’s disease prior to the infusion of HSC and to suppress immune reactions. The bone marrow can be ablated (destroyed) with dose- levels that cause minimal injury to other tissues. For many patients who are at high risk for transplant-related mortality with myeloablative allogeneic HSCT, reduced- intensity conditioning allogeneic hematopoietic stem cell transplant has proven effective. Although the reduced-intensity conditioning allogeneic HSCT may avoid many of the organ toxicities associated with myeloablative conditioning, the risk for developing graft-versus-host disease and infection including cytomegalovirus remains significant.</p>
+<p>Cytomegalovirus (CMV) is a common virus that can infect almost anyone. Once infected, your body retains the virus for life. Most people don’t know they have CMV because it rarely causes problems in healthy people. But if pregnant or having a weakened immune system, CMV is cause for concern. For people with compromised immunity, such as after allogeneic HSCT, CMV infection can be fatal. Natural killer (NK) and T cells provide protection against CMV reactivation. The reactivity of NK cells and some T-cell subsets are regulated by the interaction of killer immunoglobulin-like receptors (KIRs) with target cell HLA class 1 molecules. The donor activating KIR genotype has been implicated as a contributing factor for CMV reactivation after myeloablative allogeneic HSCT.</p>
+<p><strong>Reference</strong></p>
+<p>Sobecks et al.&nbsp;“Cytomegalovirus Reactivation After Matched Sibling Donor Reduced-Intensity Conditioning Allogeneic Hematopoietic Stem Cell Transplant Correlates With Donor Killer Immunoglobulin-like Receptor Genotype”. Exp Clin Transplant 2011; 1: 7-13.</p>
+<p><strong>Data</strong></p>
+<p>The cytomegalovirus dataset contains many variables which are appropriately used as factors in R. These variables have categorical values or levels.</p>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">ID</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">ID</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">sex</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">sex</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">race</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">race</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis.type</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis.type</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.radiation</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.radiation</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.chemo</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.chemo</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.transplant</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">prior.transplant</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">recipient.cmv</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">recipient.cmv</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">donor.sex</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">donor.sex</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">TBI.dose</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">TBI.dose</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">)</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">)</span> <span class="op">==</span> <span class="st">"C1/C2"</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">"C1_C2"</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">`C1_C2`</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">`C1_C2`</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">aKIRs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">aKIRs</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">cmv</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">cmv</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">agvhd</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">agvhd</span><span class="op">)</span></span>
+<span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">cgvhd</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">cgvhd</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">cytomegalovirus</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output cell-output-stdout">
+<pre><code>'data.frame':   64 obs. of  26 variables:
+ $ ID                : Factor w/ 64 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
+ $ age               : num  61 62 63 33 54 55 67 51 44 59 ...
+ $ sex               : Factor w/ 2 levels "0","1": 2 2 1 1 1 2 2 2 1 2 ...
+ $ race              : Factor w/ 2 levels "0","1": 1 2 2 2 2 2 2 2 1 2 ...
+ $ diagnosis         : Factor w/ 13 levels "acute lymphoblastic leukemia",..: 2 12 12 7 1 10 2 2 8 4 ...
+ $ diagnosis.type    : Factor w/ 2 levels "0","1": 2 1 1 1 1 2 2 2 1 1 ...
+ $ time.to.transplant: num  5.16 79.05 35.58 33.02 11.4 ...
+ $ prior.radiation   : Factor w/ 2 levels "0","1": 1 2 1 2 1 1 1 1 2 1 ...
+ $ prior.chemo       : Factor w/ 8 levels "0","1","2","3",..: 3 4 5 5 6 1 3 1 4 3 ...
+ $ prior.transplant  : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 2 2 1 ...
+ $ recipient.cmv     : Factor w/ 2 levels "0","1": 2 1 2 2 2 2 2 2 2 1 ...
+ $ donor.cmv         : num  0 0 1 0 1 1 1 1 1 0 ...
+ $ donor.sex         : Factor w/ 2 levels "0","1": 1 2 1 2 1 2 2 1 2 1 ...
+ $ TNC.dose          : num  18.31 4.26 8.09 21.02 14.7 ...
+ $ CD34.dose         : num  2.29 2.04 6.97 6.09 2.36 6.91 3.66 3.9 7 2.52 ...
+ $ CD3.dose          : num  3.21 NA 2.19 4.87 6.55 2.53 3.66 7.27 2.59 2.52 ...
+ $ CD8.dose          : num  0.95 NA 0.59 2.32 2.4 0.86 0.17 1.95 NA 1.22 ...
+ $ TBI.dose          : Factor w/ 2 levels "200","400": 1 1 1 1 2 1 2 2 1 2 ...
+ $ C1_C2             : Factor w/ 2 levels "0","1": 1 2 1 1 1 1 1 1 2 2 ...
+ $ aKIRs             : Factor w/ 6 levels "1","2","3","4",..: 1 5 3 2 6 2 1 2 2 4 ...
+ $ cmv               : Factor w/ 2 levels "0","1": 2 1 1 1 1 2 1 1 2 1 ...
+ $ time.to.cmv       : num  3.91 65.12 3.75 48.49 4.37 ...
+ $ agvhd             : Factor w/ 2 levels "0","1": 2 1 1 2 2 2 1 1 2 1 ...
+ $ time.to.agvhd     : num  3.55 65.12 3.75 28.55 2.79 ...
+ $ cgvhd             : Factor w/ 2 levels "0","1": 1 1 1 2 1 1 1 1 2 2 ...
+ $ time.to.cgvhd     : num  6.28 65.12 3.75 10.45 4.37 ...</code></pre>
+</div>
+</div>
+<p><strong>Data Dictionary</strong></p>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dict</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.delim</a></span><span class="op">(</span><span class="st">"~/r/hsct-shiny/hsct_data_dictionary.tsv"</span>, sep <span class="op">=</span> <span class="st">"\t"</span><span class="op">)</span></span>
+<span><span class="fu">knitr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/knitr/man/kable.html">kable</a></span><span class="op">(</span><span class="va">dict</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output-display">
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 14%">
+<col style="width: 47%">
+<col style="width: 7%">
+<col style="width: 24%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: right;">Position</th>
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">Variable.Label</th>
+<th style="text-align: left;">Units</th>
+<th style="text-align: left;">Codes</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">ID</td>
+<td style="text-align: left;">Patient ID</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">age</td>
+<td style="text-align: left;">Recipient age at transplant</td>
+<td style="text-align: left;">years</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">Recipient sex</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = Male; 0 = Female</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">race</td>
+<td style="text-align: left;">Recipient race</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = White; 0 = African American</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">diagnosis</td>
+<td style="text-align: left;">Primary diagnosis</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">diagnosis type</td>
+<td style="text-align: left;">Diagnosis type</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = Myeloid; 0 = Lymphoid</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">time to transplant</td>
+<td style="text-align: left;">Time from diagnosis to transplant</td>
+<td style="text-align: left;">months</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">prior radiation</td>
+<td style="text-align: left;">Prior radiation therapy</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = No; 1 = Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">prior chemo</td>
+<td style="text-align: left;">Number of prior chemotherapy regimens</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">prior transplant</td>
+<td style="text-align: left;">Prior transplant</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = No; 1 = Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">recipient cmv</td>
+<td style="text-align: left;">Recipient cytomegalovirus seropositive status</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = Negative; 1 = Positive</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">donor cmv</td>
+<td style="text-align: left;">Donor cytomegalovirus seropositive status</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = Negative; 1 = Positive</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: left;">donor sex</td>
+<td style="text-align: left;">Donor sex</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = Male; 0 = Female</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: left;">TNC dose</td>
+<td style="text-align: left;">Total nucleated cell dose</td>
+<td style="text-align: left;">x 10^8/kg</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">CD34 dose</td>
+<td style="text-align: left;">CD34+ cell dose</td>
+<td style="text-align: left;">x 10^8/kg</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">CD3 dose</td>
+<td style="text-align: left;">CD3+ cell dose</td>
+<td style="text-align: left;">x 10^8/kg</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">17</td>
+<td style="text-align: left;">CD8 dose</td>
+<td style="text-align: left;">CD8+ cell dose</td>
+<td style="text-align: left;">x 10^8/kg</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">TBI dose</td>
+<td style="text-align: left;">Total body irradiation dosage</td>
+<td style="text-align: left;">cGy</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">C1/C2</td>
+<td style="text-align: left;">HLA-Cw group</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = Heterozygous; 1 = Homozygous</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">aKIRs</td>
+<td style="text-align: left;">Number of donoractivating killer immunoglobulin-like receptors</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21</td>
+<td style="text-align: left;">cmv</td>
+<td style="text-align: left;">cytomegalovirus reactivation posttransplant</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">22</td>
+<td style="text-align: left;">time to cmv</td>
+<td style="text-align: left;">Time to cytomegalovirus reactivation</td>
+<td style="text-align: left;">months</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23</td>
+<td style="text-align: left;">agvhd</td>
+<td style="text-align: left;">Acute 2-4 graft versus host disease</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: left;">time to agvhd</td>
+<td style="text-align: left;">Time to acute 2-4 graft versus host disease</td>
+<td style="text-align: left;">months</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">cgvhd</td>
+<td style="text-align: left;">Chronic graft versus host disease</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">0 = No; 1 = Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td style="text-align: left;">time to cgvhd</td>
+<td style="text-align: left;">Time to chronic graft versus host disease</td>
+<td style="text-align: left;">months</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong>Data Visualization</strong></p>
+<p>In <code>@fig-scatterplot</code> below shows the distribution of <code>time.to.transplant</code> by <code>diagnosis</code> of 64 cell transplant therapy patients at the Cleveland Clinic.</p>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></span>
+<span><span class="va">p</span> <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">cytomegalovirus</span><span class="op">)</span> <span class="op">+</span></span>
+<span>      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes_.html">aes_string</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">time.to.transplant</span>, </span>
+<span>                 y <span class="op">=</span> <span class="va">cytomegalovirus</span><span class="op">$</span><span class="va">diagnosis</span><span class="op">)</span> <span class="op">+</span></span>
+<span>      <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>color <span class="op">=</span> <span class="va">C1_C2</span>, shape <span class="op">=</span> <span class="va">cmv</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Time to Transplant for Cell Transplant Therapy Patients"</span>,</span>
+<span>       subtitle <span class="op">=</span> <span class="st">"CMV Reactivation Posttransplant and HLA Heterozygous v. Homozygous"</span>,</span>
+<span>       y <span class="op">=</span> <span class="st">"Diagnosis"</span>, </span>
+<span>       x <span class="op">=</span> <span class="st">"Time to Transplant"</span>,</span>
+<span>       color <span class="op">=</span> <span class="st">"HLA-Cw group"</span>, shape <span class="op">=</span> <span class="st">"CMV"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">p</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output-display">
+<div id="fig-scatterplot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure"><p><img src="index_files/figure-html/fig-scatterplot-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Non-Hodgkin lymphoma and chronic lymphocytic leukemia show a trend of many more months beyond time of transplant than other indications.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+<!-- -->
+
+
+</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb7" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Retrospective Cohort Study of Myeloablative Allogeneic Hematopoietic Stem Cell Transplant."</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-link: true</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>**Study Abstract**</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>This data set contains 64 consecutive patients who underwent T-cell replete, matched sibling donor reduced-intensity conditioning allogeneic hematopoietic stem cell transplant. A number of demographic, baseline and transplant characteristics were also collected. The dataset is cleaned and relatively complete. There are no outliers or data problems.</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>**Indications**</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(medicaldata)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(cytomegalovirus<span class="sc">$</span>diagnosis)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>**Primary Risk Factor**</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>The number of activating killer immunoglobulin-like receptors (aKIRs: 1-4 vs. 5-6)</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>**Primary Outcome**</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>The primary outcome is presence of and time to cytomegalovirus reactivation.</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>**Background**</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>Hematopoietic stem cell transplantation (HSCT) is the transplantation of multipotent hematopoietic stem cells, from bone marrow, peripheral blood, or umbilical cord blood. It is a medical procedure most often performed for patients with certain cancers of the blood or bone marrow, such as multiple myeloma or leukemia. Allogeneic HSCT involves two people: the (healthy) donor and the (patient) recipient. Allogeneic HSC donors must have a tissue (HLA) type that matches the recipient. In myeloablative allogeneic HSCT, chemotherapy or irradiation is given immediately prior to a transplant (the conditioning regimen) with the purpose of eradicating the patient's disease prior to the infusion of HSC and to suppress immune reactions. The bone marrow can be ablated (destroyed) with dose- levels that cause minimal injury to other tissues. For many patients who are at high risk for transplant-related mortality with myeloablative allogeneic HSCT, reduced- intensity conditioning allogeneic hematopoietic stem cell transplant has proven effective. Although the reduced-intensity conditioning allogeneic HSCT may avoid many of the organ toxicities associated with myeloablative conditioning, the risk for developing graft-versus-host disease and infection including cytomegalovirus remains significant.</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>Cytomegalovirus (CMV) is a common virus that can infect almost anyone. Once infected, your body retains the virus for life. Most people don't know they have CMV because it rarely causes problems in healthy people. But if pregnant or having a weakened immune system, CMV is cause for concern. For people with compromised immunity, such as after allogeneic HSCT, CMV infection can be fatal. Natural killer (NK) and T cells provide protection against CMV reactivation. The reactivity of NK cells and some T-cell subsets are regulated by the interaction of killer immunoglobulin-like receptors (KIRs) with target cell HLA class 1 molecules. The donor activating KIR genotype has been implicated as a contributing factor for CMV reactivation after myeloablative allogeneic HSCT.</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>**Reference**</span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>Sobecks et al. "Cytomegalovirus Reactivation After Matched Sibling Donor Reduced-Intensity Conditioning Allogeneic Hematopoietic Stem Cell Transplant Correlates With Donor Killer Immunoglobulin-like Receptor Genotype". Exp Clin Transplant 2011; 1: 7-13.</span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>**Data**</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>The cytomegalovirus dataset contains many variables which are appropriately used as factors in R. These variables have categorical values or levels.</span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>ID <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>ID)</span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>sex <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>sex)</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>race <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>race)</span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>diagnosis <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>diagnosis)</span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>diagnosis.type <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>diagnosis.type)</span>
+<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>prior.radiation <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>prior.radiation)</span>
+<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>prior.chemo <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>prior.chemo)</span>
+<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>prior.transplant <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>prior.transplant)</span>
+<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>recipient.cmv <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>recipient.cmv)</span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>donor.sex <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>donor.sex)</span>
+<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>TBI.dose <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>TBI.dose)</span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(cytomegalovirus)[<span class="fu">names</span>(cytomegalovirus) <span class="sc">==</span> <span class="st">"C1/C2"</span>] <span class="ot">&lt;-</span> <span class="st">"C1_C2"</span></span>
+<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span><span class="st">`</span><span class="at">C1_C2</span><span class="st">`</span> <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span><span class="st">`</span><span class="at">C1_C2</span><span class="st">`</span>)</span>
+<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>aKIRs <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>aKIRs)</span>
+<span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>cmv <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>cmv)</span>
+<span id="cb7-63"><a href="#cb7-63" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>agvhd <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>agvhd)</span>
+<span id="cb7-64"><a href="#cb7-64" aria-hidden="true" tabindex="-1"></a>cytomegalovirus<span class="sc">$</span>cgvhd <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(cytomegalovirus<span class="sc">$</span>cgvhd)</span>
+<span id="cb7-65"><a href="#cb7-65" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(cytomegalovirus)</span>
+<span id="cb7-66"><a href="#cb7-66" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb7-67"><a href="#cb7-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-68"><a href="#cb7-68" aria-hidden="true" tabindex="-1"></a>**Data Dictionary**</span>
+<span id="cb7-69"><a href="#cb7-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-72"><a href="#cb7-72" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb7-73"><a href="#cb7-73" aria-hidden="true" tabindex="-1"></a>dict <span class="ot">&lt;-</span> <span class="fu">read.delim</span>(<span class="st">"~/r/hsct-shiny/hsct_data_dictionary.tsv"</span>, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>)</span>
+<span id="cb7-74"><a href="#cb7-74" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(dict)</span>
+<span id="cb7-75"><a href="#cb7-75" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb7-76"><a href="#cb7-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-77"><a href="#cb7-77" aria-hidden="true" tabindex="-1"></a>**Data Visualization**</span>
+<span id="cb7-78"><a href="#cb7-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-79"><a href="#cb7-79" aria-hidden="true" tabindex="-1"></a>In <span class="in">`@fig-scatterplot`</span> below shows the distribution of <span class="in">`time.to.transplant`</span> by <span class="in">`diagnosis`</span> of 64 cell transplant therapy patients at the Cleveland Clinic.</span>
+<span id="cb7-80"><a href="#cb7-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-83"><a href="#cb7-83" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb7-84"><a href="#cb7-84" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-scatterplot</span></span>
+<span id="cb7-85"><a href="#cb7-85" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Non-Hodgkin lymphoma and chronic lymphocytic leukemia show a trend of many more months beyond time of transplant than other indications."</span></span>
+<span id="cb7-86"><a href="#cb7-86" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
+<span id="cb7-87"><a href="#cb7-87" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb7-88"><a href="#cb7-88" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb7-89"><a href="#cb7-89" aria-hidden="true" tabindex="-1"></a>p <span class="ot">=</span> <span class="fu">ggplot</span>(<span class="at">data =</span> cytomegalovirus) <span class="sc">+</span></span>
+<span id="cb7-90"><a href="#cb7-90" aria-hidden="true" tabindex="-1"></a>      <span class="fu">aes_string</span>(<span class="at">x =</span> cytomegalovirus<span class="sc">$</span>time.to.transplant, </span>
+<span id="cb7-91"><a href="#cb7-91" aria-hidden="true" tabindex="-1"></a>                 <span class="at">y =</span> cytomegalovirus<span class="sc">$</span>diagnosis) <span class="sc">+</span></span>
+<span id="cb7-92"><a href="#cb7-92" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> C1_C2, <span class="at">shape =</span> cmv)) <span class="sc">+</span></span>
+<span id="cb7-93"><a href="#cb7-93" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Time to Transplant for Cell Transplant Therapy Patients"</span>,</span>
+<span id="cb7-94"><a href="#cb7-94" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"CMV Reactivation Posttransplant and HLA Heterozygous v. Homozygous"</span>,</span>
+<span id="cb7-95"><a href="#cb7-95" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Diagnosis"</span>, </span>
+<span id="cb7-96"><a href="#cb7-96" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Time to Transplant"</span>,</span>
+<span id="cb7-97"><a href="#cb7-97" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"HLA-Cw group"</span>, <span class="at">shape =</span> <span class="st">"CMV"</span>) <span class="sc">+</span></span>
+<span id="cb7-98"><a href="#cb7-98" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb7-99"><a href="#cb7-99" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(p)</span>
+<span id="cb7-100"><a href="#cb7-100" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+</body></html>
